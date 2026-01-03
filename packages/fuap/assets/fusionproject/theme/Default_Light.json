@@ -1,0 +1,36 @@
+{
+    "nightMode": false,
+    "statusBarDark": true,
+    "colors": {
+        "colorPrimary": "#ffffff",
+        "colorAccent": "#03DAC5",
+        "textColorPrimary": "#444444",
+        "textColorSecondary": "#757575",
+        "windowBackground": "#ffffff"
+    },
+    "drawerStyle": {
+        "itemTextColor": "#444444",
+        "itemIconTint": "#757575",
+        "dividerColor": "#bdbdbd",
+        "avatarSize": 64,
+        "avatarCornerSize": 50,
+        "headerMainTextSize": 18,
+        "headerMainTextBold": false,
+        "headerSecondaryTextSize": 14,
+        "width": 80
+    },
+    "indicatorStyle": {
+        "lineColors": ["#EFDC05", "#2b90d9", "#fe4365", "#ff7473"],
+        "titleNormalColor": "#444444",
+        "titleSelectedColor": "#03DAC5",
+        "textSize": 15,
+        "background": "#ffffff"
+    },
+    "toolbarStyle": {
+        "searchBarTextColor": "#757575",
+        "searchBarBackgroundColor": "#f5f5f5",
+        "toolbarTitleSize": 20,
+        "toolbarSubtitleSize": 12,
+        "toolbarTitleBold": false
+    }
+}

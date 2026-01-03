@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="./static/css/styles.css" />
+        <meta
+            http-equiv="Content-Security-Policy"
+            content="default-src * 'unsafe-inline' 'unsafe-eval'"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tauri App</title>
+        <script src="./static/js/main.js"></script>
+    </head>
+    <body>
+        <main class="container">
+            <h1>Welcome to TauriMan</h1>
+
+            <div class="row">
+                <a
+                    href="https://tauri.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <img
+                        src="./assets/tauri.svg"
+                        class="logo tauri"
+                        alt="Tauri logo"
+                    />
+                </a>
+                <a
+                    href="https://pakeplus.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <img
+                        src="https://hk.gh-proxy.org/https://github.com/Sjj1024/PakePlus/blob/main/app-icon.png"
+                        class="logo vanilla"
+                        alt="JavaScript logo"
+                    />
+                </a>
+            </div>
+            <p>Click to get data</p>
+            <form class="row" id="greet-form">
+                <input id="greet-input" placeholder="Enter a name..." />
+                <button type="submit" id="getdata">GET DATA</button>
+            </form>
+            <div class="functions">
+                <a href="./book.html" target="_self">跳转到book.html</a>
+                <a
+                    href="https://www.baidu.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >跳到百度blank
+                </a>
+                <a
+                    href="https://www.baidu.com"
+                    target="_self"
+                    rel="noopener noreferrer"
+                >
+                    跳到百度self
+                </a>
+                <button onclick="sayHello()">点击我</button>
+                <button onclick="sayHello()">下载文件</button>
+                <button onclick="sayHello()">上传文件</button>
+                <button onclick="sayHello()">访问相机</button>
+                <button onclick="sayHello()">访问麦克风</button>
+                <button onclick="sayHello()">访问相册</button>
+                <button class="btn" onclick="openWechat()">打开微信</button>
+                <button class="btn" onclick="openWechatScan()">
+                    打开扫一扫
+                </button>
+                <button class="btn" onclick="openZhihu()">打开知乎</button>
+                <button onclick="sayHello()">打开抖音</button>
+                <button onclick="sayHello()">用浏览器打开</button>
+                <button>打开知乎</button>
+            </div>
+            <p id="greet-msg"></p>
+            <img src="./static/image/cursor.jpeg" alt="logo" />
+            <video
+                src="https://hk.gh-proxy.org/https://github.com/Sjj1024/PakePlus/blob/main/docs/static/videos/pakeplus.mp4"
+                autoplay
+                controls
+                style="width: 100%; height: 100%"
+            ></video>
+            <audio src="./static/music/yin.mp3" controls></audio>
+        </main>
+    </body>
+</html>

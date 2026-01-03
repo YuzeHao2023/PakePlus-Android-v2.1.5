@@ -1,0 +1,10 @@
+{
+    "name": "PakePlus",
+    "version": "1.0.0",
+    "description": "A sample mobile application by PakePlus",
+    "author": "1024coder",
+    "webUrl": "file:///android_asset/index.html",
+    "debug": false,
+    "userAgent": "",
+    "fullScreen": false
+}
