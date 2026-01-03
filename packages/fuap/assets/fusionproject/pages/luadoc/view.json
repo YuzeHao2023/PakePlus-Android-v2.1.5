@@ -1,0 +1,33 @@
+{
+    "drawer": { "enabled": false, "list": [], "wallpaperEnabled": false },
+    "fab": { "enabled": false, "src": null },
+    "toolbar": {
+        "autoHide": false,
+        "enabled": true,
+        "homeButtonEnabled": true,
+        "menus": [{ "icon": "list", "title": "目录", "type": 0 }],
+        "searchEnabled": false,
+        "searchUrl": "",
+        "style": 0,
+        "subTitle": "",
+        "title": "Lua语言官方手册"
+    },
+    "viewPager": {
+        "indGravity": 0,
+        "indicatorStyle": 0,
+        "pages": [
+            {
+                "indTitle": "luadoc",
+                "url": "https://hangedev.github.io/luadoc/manual.html"
+            }
+        ],
+        "userInputEnabled": false
+    },
+    "webView": {
+        "colorMode": false,
+        "darkMode": 1,
+        "openOtherPageWays": 2,
+        "pcMode": false,
+        "userAgent": "default"
+    }
+}

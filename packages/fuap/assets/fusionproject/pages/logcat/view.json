@@ -1,0 +1,46 @@
+{
+    "drawer": {
+        "avatarEnabled": false,
+        "enabled": false,
+        "list": [],
+        "wallpaperEnabled": false
+    },
+    "fab": { "enabled": false, "src": "add" },
+    "toolbar": {
+        "autoHide": false,
+        "enabled": true,
+        "homeButtonEnabled": true,
+        "menus": [
+            { "title": "All", "type": 1 },
+            { "title": "Lua", "type": 1 },
+            { "title": "Test", "type": 1 },
+            { "title": "Tcc", "type": 1 },
+            { "title": "Error", "type": 1 },
+            { "title": "Warning", "type": 1 },
+            { "title": "Info", "type": 1 },
+            { "title": "Debug", "type": 1 },
+            { "title": "Verbose", "type": 1 },
+            { "title": "Clear", "type": 1 }
+        ],
+        "searchEnabled": true,
+        "style": 2,
+        "subTitle": "",
+        "title": "Logcat"
+    },
+    "viewPager": {
+        "indGravity": 0,
+        "indStyle": 0,
+        "offscreenPageLimit": 0,
+        "pages": [],
+        "transformer": 0,
+        "userInputEnabled": false
+    },
+    "webView": {
+        "colorMode": false,
+        "darkMode": 1,
+        "javaScriptEnabled": false,
+        "openOtherPageWays": 2,
+        "pcMode": false,
+        "userAgent": "default"
+    }
+}
